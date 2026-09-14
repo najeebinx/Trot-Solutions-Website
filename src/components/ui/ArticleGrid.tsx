@@ -43,7 +43,7 @@ export function ArticleGrid({ posts }: ArticleGridProps) {
             >
               {post.image && (
                 <div className="blog-one__img">
-                  <img
+                  <img loading="lazy"
                     src={post.image}
                     alt={post.title}
                     style={{

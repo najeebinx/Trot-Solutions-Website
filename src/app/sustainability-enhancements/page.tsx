@@ -59,7 +59,7 @@ export default function Page() {
             href: "/sustainability-enhancements",
           },
         ]}
-        bgImage="assets/images/backgrounds/sustainability_enhancements_bg.jpeg"
+        bgImage="/assets/images/backgrounds/sustainability_enhancements_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           {
@@ -85,7 +85,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/31312f81ed0260b46559ff2cdf39f98b.webp"
+          image="/assets/images/new_images/31312f81ed0260b46559ff2cdf39f98b.webp"
           title="Sustainability Enhancements"
           text="Transition your operations to a greener, more sustainable future. We specialize in electrifying diesel equipment, integrating shore power, and deploying smart energy platforms to significantly reduce your carbon footprint."
           capabilities={[

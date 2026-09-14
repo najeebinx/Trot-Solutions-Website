@@ -60,7 +60,7 @@ export default function Page() {
             href: "/end-of-life-assessment-engineering-studies",
           },
         ]}
-        bgImage="assets/images/backgrounds/end_of_life_bg.jpeg"
+        bgImage="/assets/images/backgrounds/end_of_life_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           { label: "End-of-Life Services", href: "/end-of-life-services" },
@@ -83,7 +83,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/276738d54b6269f6e071f9c081cc3d0e.webp"
+          image="/assets/images/new_images/276738d54b6269f6e071f9c081cc3d0e.webp"
           title="End-of-Life Assessment & Engineering Studies"
           text="Make informed decisions on whether to refurbish or dismantle aging assets. We conduct deep structural integrity evaluations, risk assessments, and cost-benefit analyses to guide your end-of-life strategies."
           capabilities={[

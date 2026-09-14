@@ -50,7 +50,7 @@ export default function Page() {
           { label: "Home", href: "/" },
           { label: "Terms & Privacy Policy" },
         ]}
-        bgImage="assets/images/backgrounds/terms_policy.png"
+        bgImage="/assets/images/backgrounds/terms_policy.webp"
       />
 
       {/* Legal Section Start */}

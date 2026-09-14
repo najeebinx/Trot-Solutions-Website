@@ -32,7 +32,7 @@ export default function JobCard({ job }: JobCardProps) {
       }}
     >
       <div className="career-card__img" style={{ position: "relative" }}>
-        <img
+        <img loading="lazy"
           src={job.image}
           alt={job.title}
           style={{

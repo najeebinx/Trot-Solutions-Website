@@ -4,7 +4,7 @@ export default function VisionMission() {
             {/* Process One Start  */}
             <section className="process-one">
                 <div className="services-one__shape-1 float-bob-y" style={{ zIndex: "0", pointerEvents: "none" }}>
-                    <img src="assets/images/shapes/services-one-shape-1.webp" alt="" />
+                    <img loading="lazy" src="/assets/images/shapes/services-one-shape-1.webp" alt="" />
                 </div>
                 <div className="process-one__big-text">
                     <h2>Purpose</h2>
@@ -23,7 +23,7 @@ export default function VisionMission() {
                             <div className="col-xl-6 col-lg-6 col-md-12 mb-4 wow fadeInLeft" data-wow-delay="100ms">
                                 <div className="vm-image-box"
                                     style={{ height: "680px", position: "relative", overflow: "hidden", borderRadius: "0" }}>
-                                    <img src="assets/images/team/vision_mission.webp" alt="Vision &amp; Mission"
+                                    <img loading="lazy" src="/assets/images/team/vision_mission.webp" alt="Vision &amp; Mission"
                                         style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", minHeight: "400px", objectPosition: "top" }} />
                                     <div
                                         style={{ position: "absolute", inset: "0", background: "linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 60%)", pointerEvents: "none" }}>

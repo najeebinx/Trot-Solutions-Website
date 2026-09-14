@@ -57,7 +57,7 @@ export default function Page() {
           { label: "End of Life Cycle", href: "#" },
           { label: "Brokerage & Resale", href: "/brokerage-resale" },
         ]}
-        bgImage="assets/images/backgrounds/brokerage_resale_bg.jpeg"
+        bgImage="/assets/images/backgrounds/brokerage_resale_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           { label: "End-of-Life Services", href: "/end-of-life-services" },
@@ -80,7 +80,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/brokerage_resale.jpeg"
+          image="/assets/images/new_images/brokerage_resale.webp"
           title="Brokerage & Resale"
           text="Connecting buyers and sellers in the global port equipment market. We offer comprehensive brokerage services for a wide range of surplus inventory, from Mobile Harbour Cranes to Ship to Shore Cranes."
           titleRightNode={

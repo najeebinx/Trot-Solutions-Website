@@ -91,7 +91,7 @@ export default function TechTalkClientComponent({ initialTalks }: { initialTalks
     },
     {
       name: "Image",
-      cell: (row: TechTalk) => row.image ? <img src={row.image} alt={row.title} style={{ width: "50px", height: "50px", objectFit: "cover", borderRadius: "4px" }} /> : "N/A",
+      cell: (row: TechTalk) => row.image ? <img loading="lazy" src={row.image} alt={row.title} style={{ width: "50px", height: "50px", objectFit: "cover", borderRadius: "4px" }} /> : "N/A",
       width: "100px",
     },
     {

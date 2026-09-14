@@ -18,10 +18,10 @@ export default function EquipmentSlider({
     (img): img is string => typeof img === "string" && img.trim() !== ""
   );
 
-  // Fallback to default image if no valid images are found
-  if (validImages.length === 0) {
-    validImages.push("assets/images/new_images/a5fc8a71b16c87cfd6006e2365924773.jpg");
-  }
+  // Fallback image file never existed in the repo; re-enable once a real default image is added.
+  // if (validImages.length === 0) {
+  //   validImages.push("/assets/images/new_images/a5fc8a71b16c87cfd6006e2365924773.webp");
+  // }
 
   return (
     <div style={{ width: "100%", height: "300px", backgroundColor: "#f3f4f6" }}>
@@ -35,7 +35,7 @@ export default function EquipmentSlider({
       >
         {validImages.map((img, idx) => (
           <SwiperSlide key={idx} style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <img
+            <img loading="lazy"
               src={img}
               alt={`${title} - Slide ${idx + 1}`}
               style={{

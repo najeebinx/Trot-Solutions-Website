@@ -51,7 +51,7 @@ export default function Page() {
           { label: "Strategic Partnerships", href: "#" },
           { label: "Dutch Lanka Trailers", href: "/dutch-lanka" },
         ]}
-        bgImage="assets/images/project/dutch_lanka/bg.jpeg"
+        bgImage="/assets/images/project/dutch_lanka/bg.webp"
         sidebarTitle="Strategic Partnerships"
         sidebarLinks={[
           { label: "Bromma", href: "/bromma" },
@@ -60,8 +60,8 @@ export default function Page() {
         currentPath="/dutch-lanka"
       >
         <div className="mb-4">
-          <img
-            src="assets/images/project/dutch_lanka/logo.webp"
+          <img loading="lazy"
+            src="/assets/images/project/dutch_lanka/logo.webp"
             alt="Dutch Lanka Trailers"
             className="img-fluid"
             style={{ maxHeight: "80px" }}
@@ -176,16 +176,16 @@ export default function Page() {
 
         <div className="row mt-2">
           <div className="col-md-6 mb-4">
-            <img
-              src="assets/images/project/dutch_lanka/img1.webp"
+            <img loading="lazy"
+              src="/assets/images/project/dutch_lanka/img1.webp"
               alt=""
               className="img-fluid rounded"
               style={{ width: "100%", height: "250px", objectFit: "cover" }}
             />
           </div>
           <div className="col-md-6 mb-4">
-            <img
-              src="assets/images/project/dutch_lanka/img3.webp"
+            <img loading="lazy"
+              src="/assets/images/project/dutch_lanka/img3.webp"
               alt=""
               className="img-fluid rounded"
               style={{ width: "100%", height: "250px", objectFit: "cover" }}

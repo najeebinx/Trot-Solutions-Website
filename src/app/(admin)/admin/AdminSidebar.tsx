@@ -22,7 +22,7 @@ export default function AdminSidebar() {
     <aside style={{ width: "260px", backgroundColor: "#1e293b", color: "#fff", padding: "20px", display: "flex", flexDirection: "column", boxShadow: "2px 0 5px rgba(0,0,0,0.1)" }}>
       <div style={{ marginBottom: "40px", textAlign: "center", backgroundColor: "white", padding: "10px", borderRadius: "8px" }}>
         <Link href="/">
-          <img src="/assets/images/resources/logo.webp" alt="TROT Logo" style={{ maxWidth: "100%", height: "auto" }} />
+          <img loading="lazy" src="/assets/images/resources/logo.webp" alt="TROT Logo" style={{ maxWidth: "100%", height: "auto" }} />
         </Link>
       </div>
 

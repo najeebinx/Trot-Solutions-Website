@@ -56,7 +56,7 @@ export default function Page() {
           { label: "Life Cycle Management", href: "#" },
           { label: "Engineering Products", href: "/engineering-products" },
         ]}
-        bgImage="assets/images/backgrounds/engineering_products.jpeg"
+        bgImage="/assets/images/backgrounds/engineering_products.webp"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -86,7 +86,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/1ee31159afad497d1eb69e1298502e44.webp"
+          image="/assets/images/new_images/1ee31159afad497d1eb69e1298502e44.webp"
           title="Engineering Products"
           text="We provide high-quality engineering products tailored for heavy-duty marine and port applications. Our inventory guarantees that your critical equipment remains operational with certified spare parts and durable MRO items."
           capabilities={[

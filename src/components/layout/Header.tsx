@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,7 +59,7 @@ export default function Header() {
                     <div className="main-menu__wrapper-inner">
                         <div className="main-menu__left">
                             <div className="main-menu__logo">
-                                <Link href="/"><img src="assets/images/resources/logo.webp" width="150" alt="logo" /></Link>
+                                <Link href="/"><Image src="/assets/images/resources/logo.webp" width={150} height={56} alt="logo" priority /></Link>
                             </div>
                         </div>
                         <div className="main-menu__main-menu-box">
@@ -145,7 +146,7 @@ export default function Header() {
             <span className="mobile-nav__close mobile-nav__toggler"><i className="fa fa-times"></i></span>
 
             <div className="logo-box">
-                <Link href="/" aria-label="logo image"><img src="assets/images/resources/logo.webp" width="150"
+                <Link href="/" aria-label="logo image"><Image src="/assets/images/resources/logo.webp" width={150} height={56}
                         alt="" /></Link>
             </div>
             {/*  /.logo-box  */}

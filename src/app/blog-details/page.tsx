@@ -26,7 +26,7 @@ export default function Page() {
       <PageHeader
         title="Blog Details"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Blog Details" }]}
-        bgImage="assets/images/backgrounds/blogs.png"
+        bgImage="/assets/images/backgrounds/blogs.webp"
       />
 
       {/* Blog Details Start  */}
@@ -37,8 +37,8 @@ export default function Page() {
               <div className="blog-details__left">
                 <div className="blog-details__img-box-1">
                   <div className="blog-details__img">
-                    <img
-                      src="assets/images/blog/blog-details-img-1.webp"
+                    <img loading="lazy"
+                      src="/assets/images/blog/blog-details-img-1.webp"
                       alt=""
                     />
                   </div>
@@ -115,16 +115,16 @@ export default function Page() {
                     <div className="row">
                       <div className="col-xl-6">
                         <div className="blog-details__img-box-img">
-                          <img
-                            src="assets/images/blog/blog-details-img-box-img-1.webp"
+                          <img loading="lazy"
+                            src="/assets/images/blog/blog-details-img-box-img-1.webp"
                             alt=""
                           />
                         </div>
                       </div>
                       <div className="col-xl-6">
                         <div className="blog-details__img-box-img">
-                          <img
-                            src="assets/images/blog/blog-details-img-box-img-2.webp"
+                          <img loading="lazy"
+                            src="/assets/images/blog/blog-details-img-box-img-2.webp"
                             alt=""
                           />
                         </div>
@@ -215,7 +215,7 @@ export default function Page() {
                   <div className="comment-one">
                     <div className="comment-one__single">
                       <div className="comment-one__image">
-                        <img src="assets/images/blog/comment-1-1.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/comment-1-1.webp" alt="" />
                       </div>
                       <div className="comment-one__content">
                         <h3>Theresa Webb</h3>
@@ -236,7 +236,7 @@ export default function Page() {
                     </div>
                     <div className="comment-one__single">
                       <div className="comment-one__image">
-                        <img src="assets/images/blog/comment-1-2.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/comment-1-2.webp" alt="" />
                       </div>
                       <div className="comment-one__content">
                         <h3>Cameron Williamson</h3>
@@ -390,8 +390,8 @@ export default function Page() {
                   <div className="sidebar__post-box">
                     <div className="sidebar__post-single">
                       <div className="sidebar-post__img">
-                        <img
-                          src="assets/images/blog/recent-post-img-1.webp"
+                        <img loading="lazy"
+                          src="/assets/images/blog/recent-post-img-1.webp"
                           alt=""
                         />
                       </div>
@@ -406,8 +406,8 @@ export default function Page() {
 
                     <div className="sidebar__post-single">
                       <div className="sidebar-post__img">
-                        <img
-                          src="assets/images/blog/recent-post-img-2.webp"
+                        <img loading="lazy"
+                          src="/assets/images/blog/recent-post-img-2.webp"
                           alt=""
                         />
                       </div>
@@ -422,8 +422,8 @@ export default function Page() {
 
                     <div className="sidebar__post-single">
                       <div className="sidebar-post__img">
-                        <img
-                          src="assets/images/blog/recent-post-img-3.webp"
+                        <img loading="lazy"
+                          src="/assets/images/blog/recent-post-img-3.webp"
                           alt=""
                         />
                       </div>
@@ -448,7 +448,7 @@ export default function Page() {
                     className="sidebar__contact-bg"
                     style={{
                       backgroundImage:
-                        "url(assets/images/backgrounds/sidebar-contact-bg.jpg)",
+                        "url(/assets/images/backgrounds/sidebar-contact-bg.webp)",
                     }}
                   ></div>
                   <div className="sidebar__contact-icon">

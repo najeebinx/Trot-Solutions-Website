@@ -18,7 +18,7 @@ export default function ServiceDetailsContent({
   return (
     <>
       <div className="service-details__img">
-        <img src={image} alt={title} />
+        <img fetchPriority="high" src={image} alt={title} />
       </div>
       
       {titleRightNode ? (

@@ -56,7 +56,7 @@ export default function Page() {
           { label: "Extended Life Cycle", href: "#" },
           { label: "Safety Enhancements", href: "/safety-enhancements" },
         ]}
-        bgImage="assets/images/backgrounds/safety_enhancement_bg.jpeg"
+        bgImage="/assets/images/backgrounds/safety_enhancement_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           {
@@ -82,7 +82,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/307a20f8b6e1b1a93204f44506bc6503.webp"
+          image="/assets/images/new_images/307a20f8b6e1b1a93204f44506bc6503.webp"
           title="Safety Enhancements"
           text="Prioritize the well-being of your workforce and the security of your assets. Our advanced safety systems, including collision avoidance, pedestrian detection, and intelligent CCTV analytics, create a secure operational environment."
           capabilities={[

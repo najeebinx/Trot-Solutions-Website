@@ -59,7 +59,7 @@ export default function Page() {
             href: "/modernization-upgrades",
           },
         ]}
-        bgImage="assets/images/backgrounds/modernization_upgrades_bg.jpeg"
+        bgImage="/assets/images/backgrounds/modernization_upgrades_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           {
@@ -85,7 +85,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/27e279904fef700d7dd34102d2a1a2f7.webp"
+          image="/assets/images/new_images/27e279904fef700d7dd34102d2a1a2f7.webp"
           title="Modernization & Upgrades"
           text="Bring legacy equipment up to modern standards with state-of-the-art upgrades. From drive systems and advanced PLC controls to complete operator cabin modernizations, we enhance safety, efficiency, and usability."
           capabilities={[

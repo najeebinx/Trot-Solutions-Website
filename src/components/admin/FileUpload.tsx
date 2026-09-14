@@ -77,7 +77,7 @@ export default function FileUpload({ label, value, onChange, accept = "image/*" 
             <a href={value} target="_blank" rel="noreferrer" style={{ color: "#2563eb", textDecoration: "underline", fontWeight: "500" }}>{value}</a>
           ) : (
             <div>
-              <img src={value} alt="Preview" style={{ maxWidth: "100%", maxHeight: "200px", borderRadius: "6px", objectFit: "contain", border: "1px solid #cbd5e1", backgroundColor: "white", padding: "4px" }} />
+              <img loading="lazy" src={value} alt="Preview" style={{ maxWidth: "100%", maxHeight: "200px", borderRadius: "6px", objectFit: "contain", border: "1px solid #cbd5e1", backgroundColor: "white", padding: "4px" }} />
             </div>
           )}
         </div>

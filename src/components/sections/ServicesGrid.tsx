@@ -5,7 +5,7 @@ export default function ServicesGrid() {
             {/* Services One Start  */}
             <section className="services-one">
                 <div className="services-one__shape-1">
-                    <img src="assets/images/shapes/services-one-shape-1.webp" alt="" />
+                    <img loading="lazy" src="/assets/images/shapes/services-one-shape-1.webp" alt="" />
                 </div>
                 <div className="container">
                     <div className="section-title text-center sec-title-animation animation-style1">
@@ -36,7 +36,7 @@ export default function ServicesGrid() {
                                             <span className="icon-building-construction"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/0a6c8a4ae4b5fed1e6c469741dcaae75.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/0a6c8a4ae4b5fed1e6c469741dcaae75.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ export default function ServicesGrid() {
                                             <span className="icon-factory"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/1ee31159afad497d1eb69e1298502e44.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/1ee31159afad497d1eb69e1298502e44.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ export default function ServicesGrid() {
                                             <span className="icon-property"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ export default function ServicesGrid() {
                                             <span className="icon-buildings"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/06fc69eaf918cd9f868dbe0d9037766c.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/06fc69eaf918cd9f868dbe0d9037766c.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@ export default function ServicesGrid() {
                                             <span className="icon-building-construction"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/276738d54b6269f6e071f9c081cc3d0e.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/276738d54b6269f6e071f9c081cc3d0e.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ export default function ServicesGrid() {
                                             <span className="icon-factory"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/0473086f30573ff373022d72e016e648.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/0473086f30573ff373022d72e016e648.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@ export default function ServicesGrid() {
                                             <span className="icon-property"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/15443419e8b9154de7ab80dde16c50da.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/15443419e8b9154de7ab80dde16c50da.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +227,7 @@ export default function ServicesGrid() {
                                             <span className="icon-buildings"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/30bdb3fc92124efb2507146f411eecc9.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/30bdb3fc92124efb2507146f411eecc9.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@ export default function ServicesGrid() {
                                             <span className="icon-building-construction"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/40c8608293b632001b98ec4d76f2a85c.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/40c8608293b632001b98ec4d76f2a85c.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -281,7 +281,7 @@ export default function ServicesGrid() {
                                             <span className="icon-factory"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/27e279904fef700d7dd34102d2a1a2f7.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/27e279904fef700d7dd34102d2a1a2f7.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -309,7 +309,7 @@ export default function ServicesGrid() {
                                             <span className="icon-property"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/0483aabec03262deceead47cad83ff52.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/0483aabec03262deceead47cad83ff52.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -336,7 +336,7 @@ export default function ServicesGrid() {
                                             <span className="icon-buildings"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/307a20f8b6e1b1a93204f44506bc6503.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/307a20f8b6e1b1a93204f44506bc6503.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +363,7 @@ export default function ServicesGrid() {
                                             <span className="icon-building-construction"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/3402dac31d971b7acfe9b3a9f0f6c7ef.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/3402dac31d971b7acfe9b3a9f0f6c7ef.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -390,7 +390,7 @@ export default function ServicesGrid() {
                                             <span className="icon-factory"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/47bcb04e0d50274e492d6a68c64f6d1f.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/47bcb04e0d50274e492d6a68c64f6d1f.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -417,7 +417,7 @@ export default function ServicesGrid() {
                                             <span className="icon-property"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/31312f81ed0260b46559ff2cdf39f98b.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/31312f81ed0260b46559ff2cdf39f98b.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -444,7 +444,7 @@ export default function ServicesGrid() {
                                             <span className="icon-buildings"></span>
                                         </div>
                                         <div className="services-one__img">
-                                            <img src="assets/images/new_images/4e6b224ae5d1bd96e4f9a33d78a29060.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/new_images/4e6b224ae5d1bd96e4f9a33d78a29060.webp" alt="" />
                                         </div>
                                     </div>
                                 </div>

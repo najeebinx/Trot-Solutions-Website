@@ -58,7 +58,7 @@ export default function Page() {
             href: "/lifecycle-cost-optimization",
           },
         ]}
-        bgImage="assets/images/backgrounds/life_cost_optimization.jpg"
+        bgImage="/assets/images/backgrounds/life_cost_optimization.webp"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -88,7 +88,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/40c8608293b632001b98ec4d76f2a85c.webp"
+          image="/assets/images/new_images/40c8608293b632001b98ec4d76f2a85c.webp"
           title="Lifecycle Cost Optimization"
           text="Make smarter financial and operational decisions with our Lifecycle Cost Optimization services. We analyze the total cost of ownership and develop long-term maintenance strategies that balance reliability with cost-efficiency."
           capabilities={[
