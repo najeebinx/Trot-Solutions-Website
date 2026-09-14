@@ -92,7 +92,7 @@ export default function EquipmentClientComponent({ initialEqs }: { initialEqs: E
     },
     {
       name: "Image",
-      cell: (row: Equipment) => row.image ? <img src={row.image} alt={row.title} style={{ width: "50px", height: "50px", objectFit: "cover", borderRadius: "4px" }} /> : "N/A",
+      cell: (row: Equipment) => row.image ? <img loading="lazy" src={row.image} alt={row.title} style={{ width: "50px", height: "50px", objectFit: "cover", borderRadius: "4px" }} /> : "N/A",
       width: "100px",
     },
     {

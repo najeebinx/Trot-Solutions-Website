@@ -58,7 +58,7 @@ export default function Page() {
             href: "/documentation-compliance",
           },
         ]}
-        bgImage="assets/images/backgrounds/document_compliance.jpg"
+        bgImage="/assets/images/backgrounds/document_compliance.webp"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -88,7 +88,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/06fc69eaf918cd9f868dbe0d9037766c.webp"
+          image="/assets/images/new_images/06fc69eaf918cd9f868dbe0d9037766c.webp"
           title="Documentation & Compliance"
           text="Ensure absolute adherence to international safety and operational standards. Our rigorous auditing, certification, and reporting services keep your operations compliant, safe, and fully documented."
           capabilities={[

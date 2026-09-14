@@ -60,7 +60,7 @@ export default function Page() {
             href: "/preventive-predictive-maintenance",
           },
         ]}
-        bgVideo="assets/videos/prevertive_predictive_bg.mp4"
+        bgVideo="/assets/videos/prevertive_predictive_bg.mp4"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -90,7 +90,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/0a6c8a4ae4b5fed1e6c469741dcaae75.webp"
+          image="/assets/images/new_images/0a6c8a4ae4b5fed1e6c469741dcaae75.webp"
           title="Preventive & Predictive Maintenance"
           text="Maximize the reliability and lifespan of your port equipment with our comprehensive preventive and predictive maintenance programs. By leveraging IoT sensors and OEM-aligned strategies, we ensure your operations run seamlessly with minimized downtime."
           capabilities={[

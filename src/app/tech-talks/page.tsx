@@ -83,7 +83,7 @@ export default async function Page(
       <PageHeader
         title="Tech Talks"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Tech Talks" }]}
-        bgImage="assets/images/backgrounds/tech_talks.png"
+        bgImage="/assets/images/backgrounds/tech_talks.webp"
         bgPosition="center 100%"
       />
 

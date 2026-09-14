@@ -1,10 +1,15 @@
+import Image from "next/image";
+
 export default function HeroBanner() {
   return (
     <>
+            <link rel="preload" as="image" fetchPriority="high"
+                href="/assets/images/new_images/6d1ef5eb7266cb7f2eef329aa05aa862.webp" />
             {/*  Banner One Start  */}
             <section className="banner-one">
-                <div className="banner-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-                    style={{ backgroundImage: "url(assets/images/new_images/6d1ef5eb7266cb7f2eef329aa05aa862.jpg)" }}>
+                {/* No jarallax here: it re-renders the bg after JS loads, delaying LCP by seconds */}
+                <div className="banner-one__bg"
+                    style={{ backgroundImage: "url(/assets/images/new_images/6d1ef5eb7266cb7f2eef329aa05aa862.webp)", backgroundPosition: "50% 0%" }}>
                 </div>
                 <div className="banner-one__shape-1"></div>
                 <div className="banner-one__shape-2"></div>
@@ -40,27 +45,29 @@ export default function HeroBanner() {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
-                                <div className="banner-one__right wow fadeInRight" data-wow-delay="300ms">
+                                <div className="banner-one__right wow fadeInRight" data-wow-delay="300ms"
+                                    style={{ width: 673, maxWidth: "100%" }}>
                                     <div className="banner-one__img-box">
                                         <div className="banner-one__img">
-                                            <img src="assets/images/resources/banner-one-img-1.webp" alt="" />
+                                            <Image src="/assets/images/resources/banner-one-img-1.webp" width={673} height={1024}
+                                                alt="" priority quality={90} sizes="424px" style={{ height: 'auto' }} />
                                             {/*  <div className="banner-one__client-review">
                                             <ul className="banner-one__client-review-img-list">
                                                 <li>
                                                     <div className="banner-one__client-review-img">
-                                                        <img src="assets/images/resources/banner-one-review-img-1.webp"
+                                                        <img src="/assets/images/resources/banner-one-review-img-1.webp"
                                                             alt="" />
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="banner-one__client-review-img">
-                                                        <img src="assets/images/resources/banner-one-review-img-2.webp"
+                                                        <img src="/assets/images/resources/banner-one-review-img-2.webp"
                                                             alt="" />
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="banner-one__client-review-img">
-                                                        <img src="assets/images/resources/banner-one-review-img-3.webp"
+                                                        <img src="/assets/images/resources/banner-one-review-img-3.webp"
                                                             alt="" />
                                                     </div>
                                                 </li>

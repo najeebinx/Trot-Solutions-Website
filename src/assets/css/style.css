@@ -426,7 +426,7 @@ xs sidebar
   opacity: 0;
   width: 100%;
   visibility: hidden;
-  cursor: url(../images/icon/cross-out.png),
+  cursor: url("/assets/images/icon/cross-out.webp"),
     pointer;
   transform: translateX(-100%);
   transition: background-color 0.5s ease;
@@ -20246,7 +20246,7 @@ Product Description
   display: block;
   border-bottom: 2px solid var(--builza-white);
   border-right: 2px solid var(--builza-white);
-  content: '';
+  content: "";
   width: 6px;
   height: 9px;
   pointer-events: none;

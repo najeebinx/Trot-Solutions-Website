@@ -72,7 +72,7 @@ export default async function Page(
 
   const mappedJobs: Job[] = careers.map((c) => ({
     id: c.id,
-    image: c.image || "assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp",
+    image: c.image || "/assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp",
     title: c.title,
     position: c.position,
     location: c.location,
@@ -95,7 +95,7 @@ export default async function Page(
       <PageHeader
         title="Careers"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Careers" }]}
-        bgImage="assets/images/backgrounds/careers.png"
+        bgImage="/assets/images/backgrounds/careers.webp"
       />
 
       {/* Careers Page Start */}

@@ -76,7 +76,7 @@ export default async function Page(
           { label: "Home", href: "/" },
           { label: "Resale Equipments" },
         ]}
-        bgImage="assets/images/backgrounds/equipments_resale.png"
+        bgImage="/assets/images/backgrounds/equipments_resale.webp"
       />
 
       {/* Resale Equipments Start */}

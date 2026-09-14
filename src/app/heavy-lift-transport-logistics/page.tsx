@@ -59,7 +59,7 @@ export default function Page() {
             href: "/heavy-lift-transport-logistics",
           },
         ]}
-        bgImage="assets/images/backgrounds/heavy_lift.jpg"
+        bgImage="/assets/images/backgrounds/heavy_lift.webp"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -89,7 +89,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/30bdb3fc92124efb2507146f411eecc9.webp"
+          image="/assets/images/new_images/30bdb3fc92124efb2507146f411eecc9.webp"
           title="Heavy-Lift & Transport Logistics"
           text="Executing complex heavy-lift and transport logistics safely and efficiently. Whether it’s SPMT mobilization for ground movement or complete tug and barge mobilization, our logistics experts handle the most demanding operational requirements."
           capabilities={[

@@ -13,7 +13,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
         <div className="swiper-wrapper">
           {images.map((src, index) => (
             <div className="swiper-slide" key={index}>
-              <img
+              <img loading="lazy"
                 src={src}
                 style={{ width: "100%", height: "250px", objectFit: "cover", borderRadius: "10px" }}
                 alt=""

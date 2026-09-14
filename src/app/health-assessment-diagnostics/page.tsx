@@ -58,7 +58,7 @@ export default function Page() {
             href: "/health-assessment-diagnostics",
           },
         ]}
-        bgImage="assets/images/backgrounds/health_assesment.jpg"
+        bgImage="/assets/images/backgrounds/health_assesment.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           {
@@ -84,7 +84,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/15443419e8b9154de7ab80dde16c50da.webp"
+          image="/assets/images/new_images/15443419e8b9154de7ab80dde16c50da.webp"
           title="Health Assessment & Diagnostics"
           text="Proactively identify and address equipment issues before they escalate. Our advanced diagnostic services utilize thermal imaging, AI-based monitoring, and detailed structural assessments to keep your assets in prime condition."
           capabilities={[

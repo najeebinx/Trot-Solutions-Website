@@ -58,7 +58,7 @@ export default function Page() {
             href: "/technical-consulting-services",
           },
         ]}
-        bgImage="assets/images/backgrounds/consultancy_services.jpg"
+        bgImage="/assets/images/backgrounds/consultancy_services.webp"
         sidebarTitle="Crane Lifecycle Services"
         sidebarLinks={[
           {
@@ -88,7 +88,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp"
+          image="/assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp"
           title="Technical Consulting Services"
           text="Empower your operations with expert guidance. From third-party inspections to detailed crane residual life analyses, our technical consulting team brings deep engineering expertise to solve complex challenges and ensure compliance."
           capabilities={[

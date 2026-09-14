@@ -15,7 +15,7 @@ export default function Page() {
       <PageHeader
         title="Insights"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Insights" }]}
-        bgImage="assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.jpg"
+        bgImage="/assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp"
       />
 
       {/* Blog Page Start */}
@@ -32,7 +32,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-1.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-1.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>
@@ -84,7 +84,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-2.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-2.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>
@@ -136,7 +136,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-3.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-3.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>
@@ -188,7 +188,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-1.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-1.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>
@@ -240,7 +240,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-2.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-2.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>
@@ -292,7 +292,7 @@ export default function Page() {
                   <div className="blog-one__single-inner">
                     <div className="blog-one__img-box">
                       <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-3.webp" alt="" />
+                        <img loading="lazy" src="/assets/images/blog/blog-1-3.webp" alt="" />
                         <div className="blog-one__tags">
                           <span>Construction</span>
                         </div>

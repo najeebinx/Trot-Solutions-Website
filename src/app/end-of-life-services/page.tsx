@@ -55,7 +55,7 @@ export default function Page() {
           { label: "End of Life Cycle", href: "#" },
           { label: "End-of-Life Services", href: "/end-of-life-services" },
         ]}
-        bgImage="assets/images/backgrounds/end_of_life_bg.jpeg"
+        bgImage="/assets/images/backgrounds/end_of_life_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           { label: "End-of-Life Services", href: "/end-of-life-services" },
@@ -78,7 +78,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/0473086f30573ff373022d72e016e648.webp"
+          image="/assets/images/new_images/0473086f30573ff373022d72e016e648.webp"
           title="End-of-Life Services"
           text="Manage the final stages of your equipment lifecycle safely and responsibly. From controlled piece-by-piece dismantling to heavy-lift relocations and environmental compliance, we handle the entire end-of-life process."
           capabilities={[

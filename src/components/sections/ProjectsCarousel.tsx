@@ -6,11 +6,11 @@ export default function ProjectsCarousel() {
                 {/*  Cog Background Shape  */}
                 <div
                     style={{ position: "absolute", left: "-150px", top: "50%", transform: "translateY(-50%)", zIndex: "0", opacity: "0.08", pointerEvents: "none" }}>
-                    <img src="assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "700px" }} />
+                    <img loading="lazy" src="/assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "700px" }} />
                 </div>
                 <div
                     style={{ position: "absolute", right: "-150px", top: "50%", transform: "translateY(-50%)", zIndex: "0", opacity: "0.08", pointerEvents: "none" }}>
-                    <img src="assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "800px" }} />
+                    <img loading="lazy" src="/assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "800px" }} />
                 </div>
                 <div className="container" style={{ position: "relative", zIndex: "1" }}>
                     <div className="project-one__top">
@@ -100,7 +100,7 @@ export default function ProjectsCarousel() {
                             </div>
                             <div className="col-xl-4 col-lg-6 col-md-6 mb-4">
                                 <div className="commitment-card h-100">
-                                    <img src="assets/images/new_images/safety_image.webp" alt="Health Safety Environment"
+                                    <img loading="lazy" src="/assets/images/new_images/safety_image.webp" alt="Health Safety Environment"
                                         className="img-fluid rounded mb-4"
                                         style={{ width: "100%", height: "260px", objectFit: "cover" }} />
                                     <h4><strong>At TROT</strong></h4><br />
