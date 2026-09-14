@@ -30,7 +30,7 @@ export default function ServiceSidebar({ title, links, currentPath }: ServiceSid
       <div className="service-details__sidebar-contact">
         <div
           className="service-details__sidebar-contact-bg"
-          style={{ backgroundImage: "url(assets/images/new_images/7080da8553c03dd00fc78065e8756e1a.jpg)" }}
+          style={{ backgroundImage: "url(/assets/images/new_images/7080da8553c03dd00fc78065e8756e1a.webp)" }}
         ></div>
         <div className="service-details__sidebar-contact-content">
           <div className="icon">

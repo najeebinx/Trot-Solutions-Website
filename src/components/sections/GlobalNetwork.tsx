@@ -20,7 +20,7 @@ export default function GlobalNetwork() {
                                     <div className="pricing-one__single-inner">
 
                                         <div className="pricing-one__content"
-                                            style={{ backgroundImage: "url(assets/images/new_images/cranes.jpg)" }}>
+                                            style={{ backgroundImage: "url(/assets/images/new_images/cranes.webp)" }}>
 
                                             <h3 className="pricing-one__price-box">Container Cranes</h3>
                                         </div>
@@ -91,10 +91,10 @@ export default function GlobalNetwork() {
 
                                     <div className="pricing-one__single-inner">
                                         <div className="pricing-one__single-shape-1">
-                                            <img src="assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
                                         </div>
                                         <div className="pricing-one__content"
-                                            style={{ backgroundImage: "url(assets/images/new_images/bulk_cranes.jpg)" }}>
+                                            style={{ backgroundImage: "url(/assets/images/new_images/bulk_cranes.webp)" }}>
 
                                             <h3 className="pricing-one__price-box">Bulk cranes</h3>
                                         </div>
@@ -165,10 +165,10 @@ export default function GlobalNetwork() {
 
                                     <div className="pricing-one__single-inner">
                                         <div className="pricing-one__single-shape-1">
-                                            <img src="assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
                                         </div>
                                         <div className="pricing-one__content"
-                                            style={{ backgroundImage: "url(assets/images/new_images/spreaders.jpg)" }}>
+                                            style={{ backgroundImage: "url(/assets/images/new_images/spreaders.webp)" }}>
 
                                             <h3 className="pricing-one__price-box">Spreaders</h3>
                                         </div>
@@ -231,10 +231,10 @@ export default function GlobalNetwork() {
 
                                     <div className="pricing-one__single-inner">
                                         <div className="pricing-one__single-shape-1">
-                                            <img src="assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/shapes/pricing-one-single-shape-1.webp" alt="" />
                                         </div>
                                         <div className="pricing-one__content"
-                                            style={{ backgroundImage: "url(assets/images/new_images/trailer.jpg)" }}>
+                                            style={{ backgroundImage: "url(/assets/images/new_images/trailer.webp)" }}>
 
                                             <h3 className="pricing-one__price-box" style={{ fontSize: "36px" }}>Trailers &amp; Port
                                                 Carts</h3>

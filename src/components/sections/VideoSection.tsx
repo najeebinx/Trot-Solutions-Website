@@ -7,15 +7,16 @@ export default function VideoSection() {
         data-speed="0.2"
         data-imgposition="50% 0%"
         style={{
-          backgroundImage: "url(assets/images/backgrounds/video-one-bg.jpg)",
+          backgroundImage: "url(/assets/images/backgrounds/video-one-bg.webp)",
         }}
       ></div>
+      {/* Image file never existed (template download saved a 404 page); restore when asset is available.
       <div
         className="video-one__bg-shape"
         style={{
-          backgroundImage: "url(assets/images/shapes/video-one-bg-shape.png)",
+          backgroundImage: "url(/assets/images/shapes/video-one-bg-shape.webp)",
         }}
-      ></div>
+      ></div> */}
       <div className="container">
         <div
           className="video-one__inner wow fadeInLeft"
@@ -23,7 +24,7 @@ export default function VideoSection() {
           data-wow-duration="1500ms"
         >
           <div className="video-one__box">
-            <a href="assets/videos/video.mp4" className="video-popup">
+            <a href="/assets/videos/video.mp4" className="video-popup">
               <div className="video-one__icon">
                 <span className="fas fa-play"></span>
                 <i className="ripple"></i>

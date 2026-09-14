@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "TROT Solutions",
     images: [
       {
-        url: "https://www.trotsolutions.com/assets/images/backgrounds/contact_us.png",
+        url: "https://www.trotsolutions.com/assets/images/backgrounds/contact_us.webp",
         width: 1200,
         height: 630,
         alt: "Contact Us | TROT Solutions",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description:
       "Get in touch with TROT Solutions. Reach our offices in Dubai, Oman, India, Malaysia, Sri Lanka, and Mauritius for all port equipment and engineering service enquiries.",
     images: [
-      "https://www.trotsolutions.com/assets/images/backgrounds/contact_us.png",
+      "https://www.trotsolutions.com/assets/images/backgrounds/contact_us.webp",
     ],
   },
   alternates: {
@@ -52,7 +52,7 @@ export default function Page() {
       <PageHeader
         title="Contact"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
-        bgImage="assets/images/backgrounds/contact_us.png"
+        bgImage="/assets/images/backgrounds/contact_us.webp"
         bgPosition="center 100%"
       />
 

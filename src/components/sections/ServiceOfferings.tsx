@@ -13,7 +13,7 @@ export default function ServiceOfferings() {
                                 <div className="row">
                                     <div className="col-xl-4 col-lg-4 col-md-5">
                                         <div className="who-we-serve__img-1">
-                                            <img src="assets/images/resources/who-we-serve-img-1.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/resources/who-we-serve-img-1.webp" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-xl-8 col-lg-8 col-md-7">
@@ -37,7 +37,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/structural_inspection_rat.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/structural_inspection_rat.webp"
                                                         alt="Structural Inspections" />
                                                 </div>
                                             </div>
@@ -52,7 +52,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/resources/who-we-serve-single-img-1-2.webp"
+                                                    <img loading="lazy" src="/assets/images/resources/who-we-serve-single-img-1-2.webp"
                                                         alt="Structural Repairs" />
                                                 </div>
                                             </div>
@@ -67,7 +67,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/non_destructive_testing.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/non_destructive_testing.webp"
                                                         alt="Non Destructive Testing" />
                                                 </div>
                                             </div>
@@ -82,7 +82,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/full_painting.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/full_painting.webp"
                                                         alt="Crane Painting" />
                                                 </div>
                                             </div>
@@ -98,7 +98,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/drive_plc.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/drive_plc.webp"
                                                         alt="Drive and PLC" />
                                                 </div>
                                             </div>
@@ -113,7 +113,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/amc_serving.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/amc_serving.webp"
                                                         alt="Annual Maintenance" />
                                                 </div>
                                             </div>
@@ -128,7 +128,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/crane_shifting.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/crane_shifting.webp"
                                                         alt="Crane Shifting" />
                                                 </div>
                                             </div>
@@ -143,7 +143,7 @@ export default function ServiceOfferings() {
                                         <div className="who-we-serve__single">
                                             <div className="who-we-serve__single-img-box">
                                                 <div className="who-we-serve__single-img">
-                                                    <img src="assets/images/new_images/crane_erection.webp"
+                                                    <img loading="lazy" src="/assets/images/new_images/crane_erection.webp"
                                                         alt="Crane Erection" />
                                                 </div>
                                             </div>

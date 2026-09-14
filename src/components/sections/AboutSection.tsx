@@ -5,7 +5,7 @@ export default function AboutSection() {
             <section className="about-one" style={{ position: "relative", zIndex: "1", overflow: "hidden" }}>
                 <div className="about-one__shape-bg"
                     style={{ position: "absolute", right: "-250px", top: "50px", zIndex: "-1", opacity: "0.05" }}>
-                    <img src="assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "800px" }} />
+                    <img loading="lazy" src="/assets/images/backgrounds/home_bg_shape_cog.webp" alt="" style={{ width: "800px" }} />
                 </div>
                 <div className="container">
                     <div className="row">
@@ -13,9 +13,9 @@ export default function AboutSection() {
                             <div className="about-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                 <div className="about-one__img-box">
                                     <div className="about-one__img">
-                                        <img src="assets/images/resources/dubai_skyline.webp" alt="" />
+                                        <img loading="lazy" src="/assets/images/resources/dubai_skyline.webp" alt="" />
                                         <div className="about-one__shape-1">
-                                            <img src="assets/images/resources/trot_black_logo_global.webp" alt="" />
+                                            <img loading="lazy" src="/assets/images/resources/trot_black_logo_global.webp" alt="" />
                                         </div>
                                         {/*  <div className="about-one__video-link">
                                         <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
@@ -27,7 +27,7 @@ export default function AboutSection() {
                                     </div>  */}
                                     </div>
                                     <div className="about-one__img-2">
-                                        <img src="assets/images/new_images/about-us-2nd.webp" alt="" />
+                                        <img loading="lazy" src="/assets/images/new_images/about-us-2nd.webp" alt="" />
                                     </div>
                                     <div className="about-one__experience-box">
                                         <div className="about-one__experience-count">

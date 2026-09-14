@@ -59,7 +59,7 @@ export default function Page() {
             href: "/scrap-management-recycling",
           },
         ]}
-        bgImage="assets/images/backgrounds/end_of_life_bg.jpeg"
+        bgImage="/assets/images/backgrounds/end_of_life_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           { label: "End-of-Life Services", href: "/end-of-life-services" },
@@ -82,7 +82,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/3402dac31d971b7acfe9b3a9f0f6c7ef.webp"
+          image="/assets/images/new_images/3402dac31d971b7acfe9b3a9f0f6c7ef.webp"
           title="Scrap Management & Recycling"
           text="Turn end-of-life equipment into recovered value while maintaining strict environmental compliance. Our scrap management team specializes in materials segregation, recycling documentation, and revenue recovery."
           capabilities={[

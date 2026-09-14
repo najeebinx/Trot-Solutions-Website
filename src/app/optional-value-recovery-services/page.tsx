@@ -59,7 +59,7 @@ export default function Page() {
             href: "/optional-value-recovery-services",
           },
         ]}
-        bgImage="assets/images/backgrounds/end_of_life_bg.jpeg"
+        bgImage="/assets/images/backgrounds/end_of_life_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           { label: "End-of-Life Services", href: "/end-of-life-services" },
@@ -82,7 +82,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/0483aabec03262deceead47cad83ff52.webp"
+          image="/assets/images/new_images/0483aabec03262deceead47cad83ff52.webp"
           title="Optional Value-Recovery Services"
           text="Maximize the return on your retired assets. We manage the refurbishment, auction, and global resale of usable components such as motors, drives, and spreaders through our Trot Global network."
           capabilities={[

@@ -58,7 +58,7 @@ export default function Page() {
             href: "/structural-life-extension",
           },
         ]}
-        bgImage="assets/images/backgrounds/structural_life_extension_bg.jpeg"
+        bgImage="/assets/images/backgrounds/structural_life_extension_bg.webp"
         sidebarTitle="Our Services"
         sidebarLinks={[
           {
@@ -84,7 +84,7 @@ export default function Page() {
         carouselImages={CAROUSEL_IMAGES}
       >
         <ServiceDetailsContent
-          image="assets/images/new_images/47bcb04e0d50274e492d6a68c64f6d1f.webp"
+          image="/assets/images/new_images/47bcb04e0d50274e492d6a68c64f6d1f.webp"
           title="Structural Life Extension"
           text="Extend the operational life of your cranes and structures through targeted reinforcement and specialized protection programs. We perform expert boom repairs, girder strengthening, and long-term corrosion management to protect your investments."
           capabilities={[

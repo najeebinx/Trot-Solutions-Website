@@ -15,7 +15,7 @@ export default function Page() {
       <PageHeader
         title="404 Error"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "404 Error" }]}
-        bgImage="assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.jpg"
+        bgImage="/assets/images/new_images/0ec213e3dcb552f1f9b3aec9514564b2.webp"
       />
 
       {/* Start Error Page */}

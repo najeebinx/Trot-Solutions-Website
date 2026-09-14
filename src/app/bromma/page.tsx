@@ -54,7 +54,7 @@ export default function Page() {
         ]}
         bgColor="#1C1D3D"
         hideOverlay={true}
-        headerLogo="assets/images/resources/bromma_logo.png"
+        headerLogo="/assets/images/resources/bromma_logo.webp"
         sidebarTitle="Strategic Partnerships"
         sidebarLinks={[
           { label: "Bromma", href: "/bromma" },
@@ -63,8 +63,8 @@ export default function Page() {
         currentPath="/bromma"
       >
         <div className="mb-4">
-          <img
-            src="assets/images/project/bromma/logo.svg"
+          <img loading="lazy"
+            src="/assets/images/project/bromma/logo.svg"
             alt="Bromma"
             className="img-fluid"
             style={{ maxHeight: "100px" }}
@@ -111,7 +111,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/bromma.pdf"
+                    href="/assets/pdf/bromma/bromma.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -130,7 +130,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753 A partner you can rely on-500x707_Print.pdf"
+                    href="/assets/pdf/bromma/BROM1753 A partner you can rely on-500x707_Print.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -149,7 +149,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753 Driving efficiency -707x1000_Print.pdf"
+                    href="/assets/pdf/bromma/BROM1753 Driving efficiency -707x1000_Print.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -168,7 +168,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753 Low carbon future-500x707_Print.pdf"
+                    href="/assets/pdf/bromma/BROM1753 Low carbon future-500x707_Print.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -187,7 +187,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753-EH170U Spare Parts-V1.pdf"
+                    href="/assets/pdf/bromma/BROM1753-EH170U Spare Parts-V1.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -206,7 +206,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753-SSX40-45 Spare Parts-V2.pdf"
+                    href="/assets/pdf/bromma/BROM1753-SSX40-45 Spare Parts-V2.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -225,7 +225,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753-STS45 Spare Parts-V1.pdf"
+                    href="/assets/pdf/bromma/BROM1753-STS45 Spare Parts-V1.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -244,7 +244,7 @@ export default function Page() {
                 </td>
                 <td style={{ padding: "8px 10px", textAlign: "center" }}>
                   <a
-                    href="assets/pdf/bromma/BROM1753-YSX40-45E Spare Parts-V2.pdf"
+                    href="/assets/pdf/bromma/BROM1753-YSX40-45E Spare Parts-V2.pdf"
                     target="_blank"
                     className="thm-btn"
                     style={{
@@ -263,16 +263,16 @@ export default function Page() {
 
         <div className="row mt-2">
           <div className="col-md-6 mb-4">
-            <img
-              src="assets/images/project/bromma/img1.webp"
+            <img loading="lazy"
+              src="/assets/images/project/bromma/img1.webp"
               alt=""
               className="img-fluid rounded"
               style={{ width: "100%", height: "250px", objectFit: "cover" }}
             />
           </div>
           <div className="col-md-6 mb-4">
-            <img
-              src="assets/images/project/bromma/img2.webp"
+            <img loading="lazy"
+              src="/assets/images/project/bromma/img2.webp"
               alt=""
               className="img-fluid rounded"
               style={{ width: "100%", height: "250px", objectFit: "cover" }}

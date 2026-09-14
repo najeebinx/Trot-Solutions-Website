@@ -82,7 +82,7 @@ export default async function Page(
       <PageHeader
         title="Blogs"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Blogs" }]}
-        bgImage="assets/images/backgrounds/blogs.png"
+        bgImage="/assets/images/backgrounds/blogs.webp"
       />
 
       <section

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer className="site-footer">
-            <div className="site-footer__bg" style={{ backgroundImage: "url(assets/images/backgrounds/site-footer-bg.jpg)" }}>
+            <div className="site-footer__bg" style={{ backgroundImage: "url(/assets/images/backgrounds/site-footer-bg.webp)" }}>
             </div>
             <div className="site-footer__top">
                 <div className="container-fluid" style={{ padding: "0 15px" }}>
@@ -12,7 +12,7 @@ export default function Footer() {
                             <div className="col-xl-3 col-lg-6 col-md-6 mb-4 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-widget__about">
                                     <div className="footer-widget__about-logo">
-                                        <Link href="/"><img src="assets/images/resources/Trot-Global-Logo.webp"
+                                        <Link href="/"><img loading="lazy" src="/assets/images/resources/Trot-Global-Logo.webp"
                                             width="160" alt="" style={{ marginLeft: "-12px" }} /></Link>
                                     </div>
                                     <p className="footer-widget__about-text" style={{ fontStyle: "italic" }}>"Every dock we
@@ -93,7 +93,7 @@ export default function Footer() {
                             {/*  UAE  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="100ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>
@@ -129,7 +129,7 @@ export default function Footer() {
                             {/*  OMAN  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="200ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>
@@ -161,7 +161,7 @@ export default function Footer() {
                             {/*  MALAYSIA  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="300ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>
@@ -184,7 +184,7 @@ export default function Footer() {
                             {/*  INDIA  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="400ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>
@@ -212,7 +212,7 @@ export default function Footer() {
                             {/*  MAURITIUS  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="500ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>
@@ -234,7 +234,7 @@ export default function Footer() {
                             {/*  SRI LANKA  */}
                             <div className="col-xxl-2 col-xl-4 col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="600ms">
                                 <div className="footer-location-card">
-                                    <img src="assets/images/shapes/sliding-text-icon-1.webp" alt=""
+                                    <img loading="lazy" src="/assets/images/shapes/sliding-text-icon-1.webp" alt=""
                                         className="footer-location-shape" />
                                     <h5
                                         style={{ color: "var(--builza-white)", fontWeight: "700", fontSize: "20px", marginBottom: "20px", textTransform: "uppercase" }}>

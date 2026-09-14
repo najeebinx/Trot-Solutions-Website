@@ -4,9 +4,9 @@ export default function CoreCommitments() {
             {/* Testimonial One Start  */}
             <section className="why-choose-one" id="our-values">
                 <div className="why-choose-one__bg"
-                    style={{ backgroundImage: "url(assets/images/backgrounds/why-choose-one-bg.jpg)" }}>
+                    style={{ backgroundImage: "url(/assets/images/backgrounds/why-choose-one-bg.webp)" }}>
                 </div>
-                <div className="why-choose-one__bg-2" style={{ backgroundImage: "url(assets/images/backgrounds/our_values.png)" }}>
+                <div className="why-choose-one__bg-2" style={{ backgroundImage: "url(/assets/images/backgrounds/our_values.webp)" }}>
                     <div className="why-choose-one__big-text">
                         <h2>OUR VALUES</h2>
                     </div>
@@ -20,7 +20,7 @@ export default function CoreCommitments() {
                                 <div className="why-choose-one__shape-2"></div>
                                 <div className="why-choose-one__center-icon d-none d-lg-flex align-items-center justify-content-center"
                                     style={{ position: "absolute", top: "43%", left: "50%", transform: "translate(-50%, -50%)", zIndex: "10", width: "120px", height: "120px", borderRadius: "50%", background: "transparent" }}>
-                                    <img src="assets/images/shapes/infinity_circle.webp" alt="Infinity Circle"
+                                    <img loading="lazy" src="/assets/images/shapes/infinity_circle.webp" alt="Infinity Circle"
                                         style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                                 </div>
                                 <ul className="row">

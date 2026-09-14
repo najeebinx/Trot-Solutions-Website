@@ -4,7 +4,7 @@ export default function StatsCounter() {
             {/* Counter One Start  */}
             <section className="counter-one">
                 <div className="counter-one__shape-1">
-                    {/*  <img src="assets/images/shapes/counter-one-shape-1.webp" alt="" />  */}
+                    {/*  <img loading="lazy" src="/assets/images/shapes/counter-one-shape-1.webp" alt="" />  */}
                 </div>
                 <div className="container">
                     <div className="counter-one__wrap">
