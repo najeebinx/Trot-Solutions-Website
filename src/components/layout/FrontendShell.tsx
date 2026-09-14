@@ -54,8 +54,6 @@ export default function FrontendShell({ children }: { children: React.ReactNode 
       document.body.classList.add("custom-cursor");
     } else {
       document.body.classList.remove("custom-cursor");
-      const preloader = document.getElementById("preloader");
-      if (preloader) preloader.style.display = "none";
     }
   }, [isAdmin]);
 
@@ -128,14 +126,6 @@ export default function FrontendShell({ children }: { children: React.ReactNode 
 
   return (
     <>
-      {/* Start Preloader */}
-      <div id="preloader">
-        <div className="preloader">
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      {/* End Preloader */}
       <div className="custom-cursor__cursor"></div>
       <div className="custom-cursor__cursor-two"></div>
 
