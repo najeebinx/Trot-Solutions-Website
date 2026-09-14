@@ -3,6 +3,9 @@ name: Deploy to Live
 # Same pattern as promax-global's deployLive.yml, adapted for a server-rendered app:
 # this site has API routes, Prisma and next-auth, so it can't be a static export.
 # Instead we verify the build in CI, then SSH in and rebuild + reload PM2 on the VPS.
+#
+# Server layout: app in /home/trot-website/website, owned by the trot-website user,
+# which also owns the PM2 daemon. nginx proxies trotsolutions.com -> 127.0.0.1:3000.
 
 on:
   push:
@@ -12,7 +15,7 @@ on:
 
 concurrency:
   group: production-deploy
-  cancel-in-progress: true
+  cancel-in-progress: false # never kill a deploy halfway through a server build
 
 jobs:
   build:
@@ -24,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install Dependencies
@@ -52,11 +55,15 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             set -e
-            cd /var/www/trot-solutions
-            git fetch origin latest
-            git reset --hard origin/latest
-            npm ci
-            npx prisma generate
-            npm run build
-            pm2 reload trot-website --update-env || pm2 start ecosystem.config.js
-            pm2 save
+            sudo -u trot-website -H bash -lc '
+              set -e
+              cd ~/website
+              git fetch origin latest
+              # Untracked files (.env, new uploads) are left alone by checkout -f.
+              git checkout -f -B latest origin/latest
+              npm ci
+              npx prisma generate
+              npm run build
+              pm2 reload trot-website --update-env
+              pm2 save
+            '
