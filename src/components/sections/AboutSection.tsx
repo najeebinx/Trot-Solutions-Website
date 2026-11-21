@@ -31,7 +31,7 @@ export default function AboutSection() {
                                     </div>
                                     <div className="about-one__experience-box">
                                         <div className="about-one__experience-count">
-                                            <h3 className="odometer" data-count="25" style={{ color: "var(--builza-black)" }}>00</h3>
+                                            <h3 className="odometer" data-count="25" style={{ color: "var(--builza-black)" }}>25</h3>
                                             <span style={{ color: "var(--builza-black)" }}>+</span>
                                         </div>
                                         <p className="about-one__experience-count-text">Years Of Experience</p>
