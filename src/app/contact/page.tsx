@@ -206,8 +206,8 @@ export default function Page() {
                       </div>
                       <div className="phone-item">
                         <span className="phone-country">Oman</span>
-                        <a href="tel:+9682928866">
-                          <i className="fas fa-phone-alt"></i> +9682928866
+                        <a href="tel:+96892928866">
+                          <i className="fas fa-phone-alt"></i> +968 92928866
                         </a>
                       </div>
                       <div className="phone-item">

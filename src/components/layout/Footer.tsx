@@ -143,6 +143,11 @@ export default function Footer() {
                                         <span style={{ display: "flex", gap: "8px", alignItems: "center", justifyContent: "center", marginBottom: "8px" }}>
                                             <i className="fas fa-phone"
                                                 style={{ color: "var(--builza-base)", transform: "rotate(90deg)" }}></i>
+                                            <a href="tel:+96892928866" style={{ color: "inherit" }}>+968-92928866</a>
+                                        </span>
+                                        <span style={{ display: "flex", gap: "8px", alignItems: "center", justifyContent: "center", marginBottom: "8px" }}>
+                                            <i className="fas fa-phone"
+                                                style={{ color: "var(--builza-base)", transform: "rotate(90deg)" }}></i>
                                             <a href="tel:+96891444471" style={{ color: "inherit" }}>+968-91444471</a>
                                         </span>
                                         <span style={{ display: "flex", gap: "8px", alignItems: "center", justifyContent: "center", marginBottom: "8px" }}>
